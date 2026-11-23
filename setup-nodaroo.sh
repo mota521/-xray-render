@@ -18,7 +18,7 @@ cfg = {
     "inbounds": [{
         "port": port,
         "protocol": "vless",
-        "settings": {"clients": [{"id": "02f70e88-0252-4cef-ba69-e52ec323b895"}]},
+        "settings": {"clients": [{"id": "02f70e88-0252-4cef-ba69-e52ec323b895"}], "decryption": "none"},
         "streamSettings": {"network": "ws", "wsSettings": {"path": "/proxy"}}
     }],
     "outbounds": [{"protocol": "freedom"}]
